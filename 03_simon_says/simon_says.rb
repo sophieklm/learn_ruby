@@ -25,6 +25,6 @@ def titleize(string)
   title.each do |word|
       little_words.include?(word) ? word : word.capitalize!
   end
-  title[0].capitalize|
+  title[0].capitalize!
   title.join(" ")
 end
